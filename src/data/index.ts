@@ -6,8 +6,8 @@ export const navLinks: NavLink[] = [
   { name: 'Skills', href: '#skills' },
   { name: 'Work', href: '#work' },
   { name: 'Education', href: '#education' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'Studies', href: '#studies' },
+  { name: 'Project', href: '#projects' },
+  { name: 'Study', href: '#studies' },
 ];
 
 export const skills = {
