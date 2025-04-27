@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-in"
           style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
         >
-          기록과 공유를 좋아하는
+          소통과 탐구를 좋아하는
         </h1>
 
         <h2
@@ -40,9 +40,9 @@ const Hero: React.FC = () => {
           className="max-w-2xl space-y-4 text-lg opacity-0 animate-fade-in"
           style={{ animationDelay: '0.9s', animationFillMode: 'forwards' }}
         >
-          <p>프론트엔드 개발자를 희망하고 있습니다.</p>
-          <p>배운 모든 것을 기록하고 공유하는 것을 좋아합니다.</p>
-          <p>공유의 중요성을 잘 알기에 항상 새기고 실천하려고 노력합니다.</p>
+          <p>AI SW Engineer를 희망하고 있습니다.</p>
+          <p>팀원과의 소통과 공유하는 것을 좋아합니다.</p>
+          <p>최신 AI 기술 트렌드를 꾸준히 학습하고, 실제 프로젝트에 적극 반영하기 위해 노력합니다.</p>
         </div>
       </div>
 
