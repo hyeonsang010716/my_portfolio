@@ -110,9 +110,9 @@ export const education: Education[] = [
     description: [
       'HTML·CSS·JavaScript 스터디 참여 및 미니 프로젝트 실습으로 웹 역량 함양',
       '자료구조·알고리즘 스터디를 통해 문제 해결 전략 습득',
-      'Flask 기반 RESTful API 설계·구현 실습으로 백엔드 개발 역량 강화',
-      '동아리 좌석 예약 시스템 프로젝트에서 CRUD 설계·구현 및 DB 스키마 최적화 경험',
+      'Flask 기반 RESTful API 설계·구현 실습으로 백엔드 개발 역량 강화'
     ],
+    github: "https://github.com/KMU-WINK/2020-02-Algorithm/tree/%EC%A1%B0%ED%98%84%EC%83%81"
   },
   {
     degree: '저학년 예비 직무 전문가 양성과정 6기',
@@ -123,6 +123,7 @@ export const education: Education[] = [
       'AI 개발 커리어 플래너 작성 → 개인 목표 설정 및 자기개발 로드맵 수립',
       '커리어 플래너 정보 기반 팀 협업 웹사이트 제작 → 학부생 대상 진로 정보 플랫폼 구축·공유',
     ],
+    github: "https://github.com/JCoREP-SoVA/sova-webpage"
   },
   {
     degree: '국민대학교 여름방학 부트캠프 (PBL 프로젝트)',
@@ -145,6 +146,7 @@ export const education: Education[] = [
       'SLIM (Sparse Linear Methods) 설계: ElasticNet·CSC 희소 행렬로 item-only 추천시스템 구축',
       'Neural Collaborative Filtering 개발: PyTorch ReLU·Dropout 활용해 비선형 관계 학습으로 선형 한계 극복'
     ],
+    github: "https://github.com/hyeonsang010716/Recommendation-system"
   },
   {
     degree: 'KPSC',
@@ -155,6 +157,7 @@ export const education: Education[] = [
       '2024년 상반기 교내 알고리즘 대회 재학생 부문 1위 수상',
       'Kaggle 스터디 참여: 예측 모델링 기법 학습 후 “Binary Prediction of Poisonous Mushrooms” 챌린지 참가 → 전체 615위 달성으로 데이터 모델링·평가 역량 강화',
     ],
+    github: "https://github.com/hyeonsang010716/Kaggle-Binary-Prediction"
   },
   {
     degree: '국민대학교 여름방학 LLM Application 개발 부트캠프',
@@ -165,6 +168,8 @@ export const education: Education[] = [
       '미니 프로젝트: 회의록(STT)·명함 인식(OCR)·숙박 추천(RAG) 서비스 개발',
       '팀 프로젝트: 보드 게임 Assistant 챗봇 서비스 설계·구현 및 배포'
     ],
+    link: "https://www.youtube.com/watch?v=YjaCYeKBIh8",
+    github: "https://github.com/hyeonsang010716/ChatBoard"
   },
 ];
 
