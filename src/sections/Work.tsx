@@ -16,7 +16,7 @@ const Work: React.FC = () => {
   return (
     <section
       id="work"
-      className="py-20 px-6 md:px-12 bg-white dark:bg-gray-900 transition-colors duration-300"
+      className="py-20 px-6 md:px-12 bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
     >
       <div className="container mx-auto">
         <SectionTitle
