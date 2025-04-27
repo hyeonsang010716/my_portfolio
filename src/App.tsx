@@ -49,7 +49,7 @@ function App() {
       <main>
         <Hero />
         <div className="bg-gray-900">
-          <About />
+          {/* <About /> */}
           <Skills />
           <Work />
           <Projects />
