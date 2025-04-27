@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  my-app:
+    build: .
+    ports:
+      - "8510:8510"
+    volumes:
+      - .:/app
+      - /app/node_modules 
+    command: ["npm", "run", "dev", "--", "--host", "--port", "8510"]
