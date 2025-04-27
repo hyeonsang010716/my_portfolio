@@ -22,44 +22,46 @@ export const skills = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'AI-Powered Code Assistant',
-    description: 'Developed an intelligent code completion and suggestion system using machine learning algorithms.',
-    image: 'https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    title: 'MBC+/맑은소프트 운영 Agent',
+    description: 'LangChain + LangGraph로 구축하여 MBC+와 맑은소프트에 배포한 운영 에이전트입니다.',
+    image: '/operation.png',
     category: 'AI Development',
-    tags: ['Python', 'TensorFlow', 'NLP', 'Machine Learning'],
+    tags: ['Python', 'FastAPI', 'Langchain', 'Langgraph', 'RAG', 'Chroma', 'SQLite', 'PostgreSQL', 'Docker', 'Azure'],
     features: [
-      'Real-time code suggestions',
-      'Context-aware completions',
-      'Multi-language support',
-      'Integration with popular IDEs'
-    ]
+      'LangGraph RAG 1-step 플로우로 응답 지연·토큰 비용 최소화',
+      '임베딩 비동기 추가·삭제 기능(기존 임베딩 무손실 유지)으로 실시간 데이터 관리',
+      '다국어(ko·en·zh·ja) 지원',
+      'ChromaDB ↔ PostgreSQL 동기화로 학습 데이터 즉시 업데이트'
+    ],
+    video: '/operation.mp4'
   },
   {
     id: 2,
-    title: 'Automated Testing Framework',
-    description: 'Created a comprehensive automated testing framework for large-scale applications.',
-    image: 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'Software Testing',
-    tags: ['JavaScript', 'Jest', 'Selenium', 'CI/CD'],
+    title: 'MBC+ 취업지원 Agent',
+    description: 'LangChain + LangGraph로 구축하여 MBC+에 배포한 취업 지원 에이전트입니다.',
+    image: '/job.png',
+    category: 'AI Development',
+    tags: ['Python', 'FastAPI', 'Langchain', 'Langgraph', 'RAG', 'OCR', 'Crawl4ai', 'Chroma', 'SQLite', 'PostgreSQL', 'Docker', 'Azure'],
     features: [
-      'Parallel test execution',
-      'Detailed reporting',
-      'Cross-browser testing',
-      'CI/CD integration'
-    ]
+      '채용 공고 추천·자기소개서 첨삭·모의 면접·역량 개발 Agent를 단일 LangGraph 서버로 통합',
+      '임베딩 비동기 추가·삭제 기능(기존 임베딩 무손실 유지)으로 실시간 데이터 관리',
+      'ChromaDB ↔ PostgreSQL 동기화로 학습 데이터 즉시 업데이트',
+      'Human-in-the-Loop 방식을 적용해 멀티턴 대화 가능'
+    ],
+    video: '/job.mp4'
   },
   {
     id: 3,
-    title: 'Machine Learning Pipeline',
-    description: 'Built an end-to-end ML pipeline for data processing and model deployment.',
+    title: 'MBC+ 학습 지원 Agent',
+    description: '예정',
     image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     category: 'AI Development',
-    tags: ['Python', 'PyTorch', 'Docker', 'MLOps'],
+    tags: ['Python', 'FastAPI', 'Langchain', 'Langgraph', 'RAG', 'OCR', 'Chroma', 'SQLite', 'PostgreSQL', 'MongoDB', 'Docker', 'Azure'],
     features: [
-      'Automated data preprocessing',
-      'Model training and validation',
-      'Deployment automation',
-      'Performance monitoring'
+      '-',
+      '-',
+      '-',
+      '-'
     ]
   },
 ];

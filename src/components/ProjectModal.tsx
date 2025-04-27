@@ -35,13 +35,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
         </div>
         
         <div className="p-6">
-          <div className="aspect-video rounded-lg overflow-hidden mb-6">
-            <img 
-              src={project.image} 
-              alt={project.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          
           
           {project.video && (
             <div className="aspect-video rounded-lg overflow-hidden mb-6">

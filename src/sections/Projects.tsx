@@ -23,9 +23,7 @@ const Projects: React.FC = () => {
     >
       <div className="container mx-auto">
         <SectionTitle 
-          title="My Projects" 
-          subtitle="A selection of my recent work and personal projects."
-          center
+          title="Project" 
         />
         
         <div 
