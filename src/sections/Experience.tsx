@@ -54,7 +54,9 @@ const Experience: React.FC = () => {
                     </p>
                     
                     <p className="text-gray-600 dark:text-gray-300 transition-colors duration-300">
-                      {exp.description}
+                      <ul>
+                        {exp.description.map((line, i) => <li key={i}>{line}</li>)}
+                      </ul>
                     </p>
                   </div>
                 </div>

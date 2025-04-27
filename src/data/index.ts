@@ -66,22 +66,24 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
   {
-    title: 'AI Software Engineer',
-    company: 'Tech Innovation Labs',
-    period: '2022 - Present',
-    description: 'Leading AI/ML projects, developing intelligent systems, and implementing machine learning solutions for enterprise applications.',
+    title: '매직에꼴',
+    company: 'AI 기술 연구소 / 인턴',
+    period: '2024년 9월 1일 - 2024년 12월 31일',
+    description: [
+      'B2B 대상 맞춤형 AI 솔루션 기획·개발 프로젝트 참여',
+      '대용량 데이터 수집·전처리 파이프라인 설계 및 구축',
+      'RAG 기반 문서 검색 로직 구현 및 MBC+ 챗봇 Agent 운영·최적화',
+    ],
   },
   {
-    title: 'Software Engineer',
-    company: 'Digital Solutions Inc.',
-    period: '2020 - 2022',
-    description: 'Developed and maintained large-scale applications, implemented automated testing frameworks, and optimized system performance.',
-  },
-  {
-    title: 'Junior Developer',
-    company: 'StartUp Tech',
-    period: '2019 - 2020',
-    description: 'Worked on full-stack development projects, collaborated with cross-functional teams, and participated in agile development processes.',
+    title: '매직에꼴',
+    company: 'AI 기술 연구소 / 연구원',
+    period: '2025년 1월 1일 - 진행 중',
+    description: [
+      '대규모 애플리케이션 개발·유지보수',
+      '자동화된 테스트 프레임워크 설계·구현',
+      '시스템 성능 최적화 및 모니터링 파이프라인 구축',
+    ],
   },
 ];
 

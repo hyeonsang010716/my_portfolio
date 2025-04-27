@@ -13,8 +13,7 @@ const Work: React.FC = () => {
     >
       <div className="container mx-auto">
         <SectionTitle 
-          title="Work Experience" 
-          subtitle="My professional journey in software development and AI."
+          title="Work"
         />
         
         <div 
