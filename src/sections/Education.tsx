@@ -2,11 +2,8 @@ import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import { education } from '../data';
 import useInView from '../hooks/useInView';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, ExternalLink, Github } from 'lucide-react';
 
-/**
- * Replace **markdown** bold with highlighted span.
- */
 const highlight = (t: string) =>
   t.replace(/\*\*(.*?)\*\*/g, '<span class="font-semibold text-indigo-400">$1</span>');
 
@@ -19,7 +16,7 @@ const Education: React.FC = () => {
       className="py-20 px-6 md:px-12 bg-gray-50 dark:bg-gray-800 transition-colors duration-300"
     >
       <div className="container mx-auto">
-        <SectionTitle title="Education"/>
+        <SectionTitle title="Education" center />
 
         <div
           ref={ref}
@@ -37,11 +34,41 @@ const Education: React.FC = () => {
               </div>
 
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{edu.degree}</h4>
+                {/* Header with optional links */}
+                <div className="flex justify-between items-start mb-1 gap-3">
+                  <h4 className="text-xl font-bold text-gray-900 dark:text-white">
+                    {edu.degree}
+                  </h4>
+                  <div className="flex gap-2">
+                    {edu.github && (
+                      <a
+                        href={edu.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
+                        aria-label="View GitHub Repository"
+                      >
+                        <Github size={20} />
+                      </a>
+                    )}
+                    {edu.link && (
+                      <a
+                        href={edu.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors duration-300"
+                        aria-label="View External Link"
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                    )}
+                  </div>
+                </div>
+
                 <p className="text-indigo-600 dark:text-indigo-400 font-medium mb-2">{edu.institution}</p>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">{edu.period}</p>
 
-                {/* description: string | string[] */}
+                {/* description */}
                 {Array.isArray(edu.description) ? (
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300 text-sm">
                     {edu.description.map((line: string, i: number) => (
