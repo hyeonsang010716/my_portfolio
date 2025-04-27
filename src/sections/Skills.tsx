@@ -7,11 +7,12 @@ const Skills: React.FC = () => {
   const [ref, isInView] = useInView<HTMLDivElement>();
   
   const skillCategories = {
-    'Programming Languages': skills.languages,
+    'AI': skills.ai,
     'Frontend Development': skills.frontend,
     'Backend Development': skills.backend,
     'Databases': skills.databases,
-    'DevOps & Tools': skills.devops,
+    'DevOps': skills.devops,
+    'Tools' : skills.tools
   };
 
   return (

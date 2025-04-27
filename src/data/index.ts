@@ -11,11 +11,12 @@ export const navLinks: NavLink[] = [
 ];
 
 export const skills = {
-  languages: ['Python'],
+  ai: ['Langchain', 'Langgraph', 'MCP', 'A2A', 'Crawl4ai'],
   frontend: ['JavaScript', 'HTML5', 'CSS3', 'Streamlit'],
   backend: ['Flask', 'FastAPI'],
-  databases: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Redis', 'Neo4j'],
-  devops: ['GitHub Actions', 'GitHub', 'Jira', 'Docker'],
+  databases: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Redis', 'Neo4j', 'Chroma'],
+  devops: ['GitHub Actions', 'Docker', 'Azure'],
+  tools: ['GitHub', 'Jira', 'Microsoft Teams'],
 };
 
 export const projects: Project[] = [
