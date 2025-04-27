@@ -14,9 +14,7 @@ const Studies: React.FC = () => {
     >
       <div className="container mx-auto">
         <SectionTitle 
-          title="Study Projects" 
-          subtitle="Continuous learning and research in AI and software development."
-          center
+          title="Study" 
         />
         
         <div 

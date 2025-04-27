@@ -5,8 +5,8 @@ export const navLinks: NavLink[] = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Work', href: '#work' },
-  { name: 'Education', href: '#education' },
   { name: 'Project', href: '#projects' },
+  { name: 'Education', href: '#education' },
   { name: 'Study', href: '#studies' },
 ];
 
@@ -152,6 +152,7 @@ export const education: Education[] = [
     period: '2024년 3월 13일 – 2024년 8월 17일',
     description: [
       '심화 알고리즘 스터디 참여 → 백준 다이아몬드 등급 달성 & Codeforces Blue 등급 획득으로 알고리즘 역량 강화',
+      '2024년 상반기 교내 알고리즘 대회 재학생 부문 1위 수상',
       'Kaggle 스터디 참여: 예측 모델링 기법 학습 후 “Binary Prediction of Poisonous Mushrooms” 챌린지 참가 → 전체 615위 달성으로 데이터 모델링·평가 역량 강화',
     ],
   },
@@ -169,22 +170,22 @@ export const education: Education[] = [
 
 export const studies: Study[] = [
   {
-    title: 'Advanced Machine Learning',
-    description: 'Deep dive into neural networks, reinforcement learning, and computer vision algorithms.',
-    period: '2023',
-    link: 'https://github.com/example/advanced-ml-study',
+    title: 'LLM 스터디',
+    description: '팀장을 맡아 LLM 스터디를 운영하며 LangChain을 팀원들에게 지식 공유했고, DACON 재정정보 AI 검색 알고리즘 경진대회에 출전하여 134위를 기록했습니다.',
+    period: '2024년 8월 10일 – 2024년 11월 16일',
+    link: 'https://github.com/hyeonsang010716/LLM-Study',
   },
   {
-    title: 'MLOps Practices',
-    description: 'Study group focused on machine learning operations, deployment strategies, and monitoring systems.',
-    period: '2022',
-    link: 'https://github.com/example/mlops-study',
+    title: '깃헙&알고리즘 스터디',
+    description: 'GitHub 스터디장으로서 팀원들이 매주 알고리즘 문제를 컨벤션 룰에 맞춰 GitHub 저장소에 푸시하도록 주도하며 스터디를 운영했습니다.',
+    period: '2025년 1월1일 – 2025년 2월 28일',
+    link: 'https://github.com/hyeonsang010716/algorithm-study',
   },
   {
-    title: 'System Design Patterns',
-    description: 'Weekly discussions and implementations of various software design patterns and architecture principles.',
-    period: '2021',
-    link: 'https://github.com/example/system-design-study',
+    title: '서강대학교 SGCS 깃헙 스터디',
+    description: '서강대학교 SGCS 학술 동아리에서 깃헙 스터디를 주관하며, 학생들에게 Git 사용법과 협업 워크플로우를 교육하고 있습니다.',
+    period: '2025년 3월24일 – 현재',
+    link: 'https://github.com/SGCS-Release-Git-Project/Git-Study',
   },
 ];
 
