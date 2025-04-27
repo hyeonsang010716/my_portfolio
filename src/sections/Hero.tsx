@@ -26,23 +26,36 @@ const Hero: React.FC = () => {
           className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-in"
           style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
         >
-          소통과 탐구를 좋아하는
+          <span className="text-black">소통</span>과{' '}
+          <span className="text-black">탐구</span>를 좋아하는
         </h1>
 
         <h2
           className="text-3xl md:text-4xl font-bold mb-8 opacity-0 animate-fade-in"
           style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}
         >
-          조현상입니다.
+          <span className="text-black">조현상</span>입니다.
         </h2>
 
         <div
           className="max-w-2xl space-y-4 text-lg opacity-0 animate-fade-in"
           style={{ animationDelay: '0.9s', animationFillMode: 'forwards' }}
         >
-          <p>AI SW Engineer를 희망하고 있습니다.</p>
-          <p>팀원과의 소통과 공유하는 것을 좋아합니다.</p>
-          <p>최신 AI 기술 트렌드를 꾸준히 학습하고, 실제 프로젝트에 적극 반영하기 위해 노력합니다.</p>
+          <p>
+            <span className="font-semibold text-black">AI SW Engineer</span>를 희망하고 있습니다.
+          </p>
+          <p>
+            팀원과의 <span className="text-black font-semibold">소통</span>과{' '}
+            <span className="text-black font-semibold">공유</span>를 좋아합니다.
+          </p>
+          <p>
+            최신 AI 기술 트렌드를 꾸준히{' '}
+            <span className="text-black font-semibold">학습</span>하고, 실제 프로젝트에
+            적극 반영하기 위해 <span className="text-black font-semibold">노력</span>합니다.
+          </p>
+          <p>
+            <span className="text-black font-semibold">책임감</span> 있게 목표를 끝까지 완수하는 개발자가 되겠습니다.
+          </p>
         </div>
       </div>
 
