@@ -43,7 +43,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* GitHub Link */}
         <a
-          href="https://github.com/your-github-username"
+          href="https://github.com/hyeonsang010716"
           target="_blank"
           rel="noopener noreferrer"
           className={`text-2xl font-bold transition-colors duration-300 ${
