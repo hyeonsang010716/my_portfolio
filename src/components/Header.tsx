@@ -32,12 +32,13 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-white/90 backdrop-blur-sm py-4 shadow-md' 
-          : 'bg-transparent py-6'
-      }`}
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-sm
+                  transition-colors duration-300
+                  ${isScrolled
+                    ? 'bg-white/90 dark:bg-gray-900/90 py-4 shadow-md'
+                    : 'bg-black/60 py-6'             // ← Hero 오버레이와 동일
+                  }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* GitHub Link */}
