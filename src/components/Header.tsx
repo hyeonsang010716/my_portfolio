@@ -58,12 +58,14 @@ const Header: React.FC = () => {
             <a
               key={link.name}
               href={link.href}
-              className={`text-sm font-medium transition-all duration-300 hover:text-indigo-600 ${
+              className={`text-sm font-medium transition-all duration-300 ${
                 isHome && !isScrolled
-                  ? 'text-white hover:text-white/80'
-                  : activeSection === link.href.replace('#', '')
+                  ? 'text-white hover:text-indigo-400'   // 파란색(또는 보라색) 계열로 통일
+                  : 'text-gray-700 dark:text-white hover:text-indigo-600'
+              } ${
+                activeSection === link.href.replace('#', '') && !isHome
                   ? 'text-indigo-600'
-                  : 'text-gray-700 dark:text-white'
+                  : ''
               }`}
             >
               {link.name}
