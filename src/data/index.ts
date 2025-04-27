@@ -96,16 +96,72 @@ export const experiences: Experience[] = [
 
 export const education: Education[] = [
   {
-    degree: 'Master of Computer Science',
-    institution: 'Tech University',
-    period: '2017 - 2019',
-    description: 'Specialized in Artificial Intelligence and Machine Learning',
+    degree: '국민대학교',
+    institution: '소프트웨어학과',
+    period: '2020년 - 현재',
+    description: ['소프트웨어학과 4학년 재학 중' ,'학점 4.13 / 4.5']
   },
   {
-    degree: 'Bachelor of Computer Science',
-    institution: 'Engineering College',
-    period: '2013 - 2017',
-    description: 'Focus on Software Engineering and Data Structures',
+    degree: 'WINK',
+    institution: '국민대학교 소프트웨어융합대학 전공 웹 학술동아리',
+    period: '2020년 10월 4일 - 2023년 12월 31일',
+    description: [
+      'HTML·CSS·JavaScript 스터디 참여 및 미니 프로젝트 실습으로 웹 역량 함양',
+      '자료구조·알고리즘 스터디를 통해 문제 해결 전략 습득',
+      'Flask 기반 RESTful API 설계·구현 실습으로 백엔드 개발 역량 강화',
+      '동아리 좌석 예약 시스템 프로젝트에서 CRUD 설계·구현 및 DB 스키마 최적화 경험',
+    ],
+  },
+  {
+    degree: '저학년 예비 직무 전문가 양성과정 6기',
+    institution: '국민대학교 경력개발지원단',
+    period: '2020년 12월 24일 - 2021년 2월 10일',
+    description: [
+      '신세계 Inc. 응용소프트웨어 개발자 인터뷰 진행 및 데이터 분석 직무 실습',
+      'AI 개발 커리어 플래너 작성 → 개인 목표 설정 및 자기개발 로드맵 수립',
+      '커리어 플래너 정보 기반 팀 협업 웹사이트 제작 → 학부생 대상 진로 정보 플랫폼 구축·공유',
+    ],
+  },
+  {
+    degree: '국민대학교 여름방학 부트캠프 (PBL 프로젝트)',
+    institution: '코드스테이츠',
+    period: '2023년 6월 26일 – 2023년 7월 7일',
+    description: [
+      'RFP 작성 및 시퀀스 다이어그램 제작으로 요구사항 분석·업무 분해 역량 함양',
+      '그로스 해킹 기법으로 데이터 분석 실습',
+      '팀 단위 PBL 프로젝트를 통해 애자일 협업·문제 해결 능력 강화',
+    ],
+  },
+  {
+    degree: '추천 시스템 알고리즘 성능 개선 및 설계 연구',
+    institution: '국민대학교 데이터마이닝연구실',
+    period: '2024년 3월 4일 – 2024년 6월 10일',
+    description: [
+      'MovieLens 데이터셋 기반 협업 필터링(User/Item bias) 경사하강법 적용 → RMSE 예측 성능 개선',
+      'Latent Factor 모델 구현: User·Item 잠재벡터 SGD 학습으로 explicit feedback 정확도 강화',
+      'Bayesian Personalized Ranking(BPR) 알고리즘 도입 → implicit feedback 예측 정밀도 향상',
+      'SLIM (Sparse Linear Methods) 설계: ElasticNet·CSC 희소 행렬로 item-only 추천시스템 구축',
+      'Neural Collaborative Filtering 개발: PyTorch ReLU·Dropout 활용해 비선형 관계 학습으로 선형 한계 극복'
+    ],
+  },
+  {
+    degree: 'KPSC',
+    institution: '국민대학교 소프트웨어학부 알고리즘 문제해결 학술 동아리',
+    period: '2024년 3월 13일 – 2024년 8월 17일',
+    description: [
+      '심화 알고리즘 스터디 참여 → 백준 다이아몬드 등급 달성 & Codeforces Blue 등급 획득으로 알고리즘 역량 강화',
+      'Kaggle 스터디 참여: 예측 모델링 기법 학습 후 “Binary Prediction of Poisonous Mushrooms” 챌린지 참가 → 전체 615위 달성으로 데이터 모델링·평가 역량 강화',
+    ],
+  },
+  {
+    degree: '국민대학교 여름방학 LLM Application 개발 부트캠프',
+    institution: '매직에꼴',
+    period: '2024년 7월 15일 – 2024년 7월 26일',
+    description: [
+      'LLM 애플리케이션 개발 역량 습득: OpenAI API·LangChain 실습',
+      '미니 프로젝트: 회의록(STT)·명함 인식(OCR)·숙박 추천(RAG) 서비스 개발',
+      '팀 프로젝트: 보드 게임 Assistant 챗봇 서비스 설계·구현 및 배포'
+    ],
   },
 ];
 
