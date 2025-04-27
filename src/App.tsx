@@ -52,8 +52,8 @@ function App() {
           <About />
           <Skills />
           <Work />
-          <Education />
           <Projects />
+          <Education />
           <Studies />
         </div>
       </main>
