@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 py-12 transition-colors duration-300">
+    <footer id="contact" className="bg-gray-100 dark:bg-gray-900 py-12 transition-colors duration-300">
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* ...생략... */}

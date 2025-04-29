@@ -41,16 +41,24 @@ const Header: React.FC = () => {
                   }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        {/* GitHub Link */}
+
+        {/* Logo + Name */}
         <a
           href="https://github.com/hyeonsang010716"
           target="_blank"
           rel="noopener noreferrer"
-          className={`text-2xl font-bold transition-colors duration-300 ${
+          /* flex + gap 으로 아이콘과 텍스트 나란히 */
+          className={`flex items-center gap-2 text-2xl font-bold transition-colors duration-300 ${
             isHome && !isScrolled ? 'text-white' : 'text-gray-900 dark:text-white'
           }`}
         >
           <Github size={24} />
+          {/* 데스크톱 이상에서만 이름 표시 → sm 이하에서는 숨김 */}
+          <span className="hidden sm:inline
+                            bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+                            bg-clip-text text-transparent">
+            조현상
+          </span>
         </a>
 
         {/* Desktop Navigation */}
