@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';   // 필요 없는 아이콘은 정리
+import { SiVelog } from 'react-icons/si';      // ← 추가
+
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -33,6 +35,17 @@ const Footer: React.FC = () => {
               aria-label="GitHub"
             >
               <Github size={20} />
+            </a>
+
+            {/* ▼ 블로그(Velog) 아이콘 ▼ */}
+            <a
+              href="https://velog.io/@phenomenon/posts"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors duration-300"
+              aria-label="Blog"
+            >
+              <SiVelog size={20} />
             </a>
 
             {/* 이메일 복사 버튼 */}

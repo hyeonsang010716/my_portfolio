@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Github } from 'lucide-react';
+import { Menu, X, Github, ExternalLink } from 'lucide-react';
 import { navLinks } from '../data';
 import useScrollPosition from '../hooks/useScrollPosition';
+import { SiVelog } from 'react-icons/si';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,24 +43,46 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
 
-        {/* Logo + Name */}
+      <div className="flex items-center gap-2">
+        {/* GitHub 아이콘 전용 링크 */}
         <a
           href="https://github.com/hyeonsang010716"
           target="_blank"
           rel="noopener noreferrer"
-          /* flex + gap 으로 아이콘과 텍스트 나란히 */
-          className={`flex items-center gap-2 text-2xl font-bold transition-colors duration-300 ${
+          aria-label="GitHub"
+          className={`text-2xl transition-colors duration-300 ${
             isHome && !isScrolled ? 'text-white' : 'text-gray-900 dark:text-white'
           }`}
         >
           <Github size={24} />
-          {/* 데스크톱 이상에서만 이름 표시 → sm 이하에서는 숨김 */}
-          <span className="hidden sm:inline
-                            bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
-                            bg-clip-text text-transparent">
+        </a>
+
+        {/* Velog(블로그) 아이콘 전용 링크 */}
+        <a
+          href="https://velog.io/@phenomenon/posts"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Blog"
+          className={`text-2xl transition-colors duration-300 ${
+            isHome && !isScrolled ? 'text-white' : 'text-emerald-500 dark:text-emerald-400'
+          }`}
+        >
+          <SiVelog size={24} />
+        </a>
+
+        {/* 이름(조현상) – 텍스트 링크 */}
+        <a
+          href="#home"                         // 원하시는 곳으로 바꿔도 됩니다
+          className={`text-2xl font-bold transition-colors duration-300 ${
+            isHome && !isScrolled ? 'text-white' : 'text-gray-900 dark:text-white'
+          } hidden sm:inline`}                 // 모바일에서는 숨김
+        >
+          <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+                          bg-clip-text text-transparent">
             조현상
           </span>
         </a>
+      </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
