@@ -30,6 +30,23 @@ export interface Study {
   link?: string;
 }
 
+export type CourseCategory =
+  | 'AI'
+  | 'Frontend'
+  | 'Backend'
+  | 'DevOps'
+  | 'Etc';
+
+export interface Course {
+  id: number;
+  category: CourseCategory;
+  title: string;
+  author: string;
+  image: string;   // public 경로 또는 절대 URL
+  link: string;
+  provider?: string;   // Inflearn · FastCampus …
+}
+
 export interface NavLink {
   name: string;
   href: string;
