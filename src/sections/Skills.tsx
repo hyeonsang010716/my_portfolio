@@ -10,7 +10,7 @@ const skillIcons: Record<string, React.ReactNode> = {
   Langchain: <Icon icon="simple-icons:langchain" className="w-4 h-4" />,
   MCP:       <span aria-hidden></span>,
   A2A:       <span aria-hidden></span>,
-  Crawl4ai:  <span aria-hidden>🕷️</span>,
+  Crawl4ai:  <span aria-hidden></span>,
 
   // ─────── Front-end ───────
   JavaScript: <Icon icon="simple-icons:javascript" className="w-4 h-4" />,
