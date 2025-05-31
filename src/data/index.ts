@@ -66,6 +66,21 @@ export const projects: Project[] = [
     ],
     video: '/study.mp4'
   },
+  {
+    id: 4,
+    title: 'LAM Agent',
+    description: 'LAM Agent는 사용자의 요청에 따라 MCP 도구를 활용해 직접 정보를 검색하고, 그 내용을 기반으로 슬라이드를 제작한 후, TTS로 설명까지 제공하는 자동화 학습 지원 서비스입니다.',
+    image: '/LAM_demo.png',
+    category: 'AI Development',
+    tags: ['Python', 'FastAPI', 'Streamlit', 'Langchain', 'Langgraph', 'MCP', 'TTS', 'SQLite', 'Docker', 'Azure'],
+    features: [
+      '사용자의 질문을 분석하여 가장 적합한 MCP 도구를 판단하고 능동적으로 작업을 수행',
+      '필요한 정보를 실시간으로 직접 크롤링하여 최신의 신뢰할 수 있는 데이터를 확보',
+      '수집된 정보를 기반으로 슬라이드를 제작하고, TTS 기술을 활용하여 발표 형식으로 내용을 설명 지원',
+      '데이터 검증 과정을 통해 생성된 슬라이드의 정확성을 확인하고, 필요 시 슬라이드를 재구성하여 신뢰성을 보장'
+    ],
+    video: '/LAM_demo.mp4'
+  },
 ];
 
 
