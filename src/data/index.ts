@@ -24,7 +24,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: 'MBC+/맑은소프트 운영 Agent',
-    description: 'LangChain + LangGraph로 구축하여 MBC+와 맑은소프트에 배포한 운영 에이전트입니다.',
+    description: 'MBC+와 맑은소프트에 배포한 운영 에이전트입니다.',
     image: '/operation.png',
     category: 'AI Development',
     tags: ['Python', 'FastAPI', 'Langchain', 'Langgraph', 'RAG', 'Chroma', 'SQLite', 'PostgreSQL', 'Docker', 'Azure'],
@@ -39,7 +39,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: 'MBC+ 취업지원 Agent',
-    description: 'LangChain + LangGraph로 구축하여 MBC+에 배포한 취업 지원 에이전트입니다.',
+    description: 'MBC+에 배포한 취업 지원 에이전트입니다.',
     image: '/job.png',
     category: 'AI Development',
     tags: ['Python', 'FastAPI', 'Langchain', 'Langgraph', 'RAG', 'OCR', 'Crawl4ai', 'Chroma', 'SQLite', 'PostgreSQL', 'Docker', 'Azure'],
@@ -54,16 +54,17 @@ export const projects: Project[] = [
   {
     id: 3,
     title: 'MBC+ 학습 지원 Agent',
-    description: '예정',
-    image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    description: 'MBC+에 배포한 학습 지원 에이전트입니다.',
+    image: '/study.png',
     category: 'AI Development',
     tags: ['Python', 'FastAPI', 'Langchain', 'Langgraph', 'RAG', 'OCR', 'Chroma', 'SQLite', 'PostgreSQL', 'MongoDB', 'Docker', 'Azure'],
     features: [
-      '-',
-      '-',
-      '-',
-      '-'
-    ]
+      '병렬 OCR을 통한 빠른 학습 데이터 생성 - 여러 PDF 파일을 동시에 병렬로 OCR 처리하여 빠르고 효율적으로 학습 데이터를 생성',
+      '분반별 독립 학습 데이터 관리 - 다수의 분반이 각자 독립적으로 학습 데이터를 관리하여 데이터 충돌 없이 정확한 학습 지원이 가능',
+      'LMS와 ChromaDB의 비동기 연계 - 비동기 방식으로 연계되어 안정적이고 효율적인 데이터 처리를 지원',
+      '사용자 기반 맞춤형 응답 - 메타데이터 관리를 통해, 사용자가 설정한 학습 범위 내에서만 정확하고 집중적인 답변을 제공'
+    ],
+    video: '/study.mp4'
   },
 ];
 
