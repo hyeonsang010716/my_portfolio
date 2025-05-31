@@ -191,7 +191,7 @@ export const studies: Study[] = [
   {
     title: '서강대학교 SGCS 깃헙 스터디',
     description: '서강대학교 SGCS 학술 동아리에서 깃헙 스터디를 주관하며, 학생들에게 Git 사용법과 협업 워크플로우를 교육하고 있습니다.',
-    period: '2025년 3월24일 – 현재',
+    period: '2025년 3월24일 – 2025년 5월 12일',
     link: 'https://github.com/SGCS-Release-Git-Project/Git-Study',
   },
 ];
