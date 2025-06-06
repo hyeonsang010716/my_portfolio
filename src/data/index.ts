@@ -13,8 +13,8 @@ export const navLinks: NavLink[] = [
 
 export const skills = {
   ai: ['Langchain', 'Langgraph', 'MCP', 'A2A', 'Crawl4ai'],
-  frontend: ['JavaScript', 'HTML5', 'CSS3', 'Streamlit'],
-  backend: ['Flask', 'FastAPI'],
+  frontend: ['Streamlit', 'JavaScript', 'HTML5', 'CSS3'],
+  backend: ['FastAPI', 'Flask'],
   databases: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Redis', 'Neo4j', 'Chroma'],
   devops: ['GitHub Actions', 'Docker', 'Azure'],
   tools: ['GitHub', 'Jira', 'Microsoft Teams'],
@@ -90,12 +90,12 @@ export const experiences: Experience[] = [
     company: 'AI 기술 연구소 / 인턴',
     period: '2024년 9월 1일 – 2024년 12월 31일',
     description: [
-      '**MBC+ 운영·취업 Agent** RAG 플로우 3→1회 최적화 → 응답 시간·비용 **▼ 15 %**',
-      '**PDF-OCR·웹 크롤링 파이프라인 구축** → 렛유인·PSI 등 B2B 콘텐츠 전처리·임베딩 **구현**',
-      '**멀티·앙상블·셀프 쿼리 리트리버** 적용 → 답변 품질 **향상**',
-      '**ChromaDB 원격 교체 알고리즘** + FastAPI → 기존 임베딩 유지, 신규 임베딩 비동기 추가·삭제로 응답 속도 **개선**·토큰 비용 **절감**',
-      '**Streamlit + Docker 데모 UI** & Hallucination 테스트 자동화 → 배포 시간 **▼ 30 %**',
-      '🧑**LangGraph 사내 세미나 개최** → 팀 선도 지식 공유 & 신규 프로젝트 온보딩 **가속**',
+      '**MBC+ 운영·취업 에이전트 RAG 플로우를 최적화**하여 평균 응답 시간과 토큰 비용을 **▼ 15 % 절감**했습니다.',
+      '**PDF-OCR 파이프라인을 설계·구축**해 렛유인·PSI 등 B2B 콘텐츠 전처리·임베딩을 **전면 자동화**했습니다.',
+      '**Naive RAG를 Modular RAG로 전환**해 할루시네이션을 **▼ 10 % 감소**, 답변 정확도를 **▲ 10 % 향상**시켰습니다.',
+      '**ChromaDB 원격 교체 알고리즘을 구현**하여 기존 임베딩을 그대로 유지하면서 신규 데이터의 비동기 추가·삭제를 지원, 토큰 비용을 **▼ 30 % 절감**했습니다.',
+      '**Hallucination 테스트를 자동화**해 배포 전 검증 시간을 **▼ 30 % 단축**했습니다.',
+      '**LangGraph 사내 세미나를 주최**해 팀 지식 공유를 **강화**, 신규 프로젝트 온보딩 속도를 **가속**했습니다.',
     ],
   },
   {
@@ -103,12 +103,12 @@ export const experiences: Experience[] = [
     company: 'AI 기술 연구소 / 연구원',
     period: '2025년 1월 1일 – 현재',
     description: [
-      '**취업지원 4종 Agent** LangGraph 서버 통합 → 서버·유지보수 비용 **▼ 30 %**',
-      '**웹 크롤링 + OCR 자동화** → MongoDB·PostgreSQL 연동, **일 k건** 데이터 수집·전처리',
-      '**ChromaDB ↔ MongoDB/PostgreSQL 실시간 동기화** → 학습 데이터 관리 효율화·재사용성 **향상**',
-      '**다국어(ko·en·zh·ja) 상담 챗봇** 구현 → 글로벌 UX **강화**',
-      '**프롬프트 자동 반영 시스템** → 토큰 사용 최적화·할루시네이션 감소, 정확도 **▲ 20 %**',
-      '**LangGraph 토큰·시간·비용 추적** + GitHub Actions CI/CD → 운영 가시성 및 배포 안정성 **향상**',
+      '**기존 4개 취업지원 에이전트를 각기 다른 서버에서 운영하던 구조를, LangGraph 기반 단일 에이전트로 통합**하여 서버 운영·유지보수 비용을 **▼ 30 % 절감**했습니다.',
+      '**웹 크롤링 + OCR 파이프라인을 자동화**해 **일일 약 1 천 건**의 데이터를 수집·전처리했습니다.',
+      '**ChromaDB ↔ MongoDB/PostgreSQL 실시간 동기화 알고리즘을 구현**해 학습 데이터 관리 효율성과 재사용성을 **▲ 20 % 향상**시켰습니다.',
+      '**다국어(ko·en·zh·ja) 상담 챗봇을 구축**해 글로벌 UX를 **강화**했습니다.',
+      '**객체지향 프롬프트 관리 로직을 설계**하여 할루시네이션을 **▼ 15 % 감소**, 답변 정확도를 **▲ 15 % 향상**시켰습니다.',
+      '**LangGraph 기반 토큰·시간·비용 추적 로직을 구축**해 운영 가시성과 배포 안정성을 **강화**했습니다.',
     ],
   },
 ];
@@ -205,7 +205,7 @@ export const studies: Study[] = [
   },
   {
     title: '서강대학교 SGCS 깃헙 스터디',
-    description: '서강대학교 SGCS 학술 동아리에서 깃헙 스터디를 주관하며, 학생들에게 Git 사용법과 협업 워크플로우를 교육하고 있습니다.',
+    description: '서강대학교 SGCS 학술 동아리에서 깃헙 스터디를 주관하며, 학생들에게 Git 사용법과 협업 워크플로우를 교육하고 했습니다.',
     period: '2025년 3월24일 – 2025년 5월 12일',
     link: 'https://github.com/SGCS-Release-Git-Project/Git-Study',
   },

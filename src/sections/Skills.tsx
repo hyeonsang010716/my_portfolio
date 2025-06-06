@@ -13,10 +13,10 @@ const skillIcons: Record<string, React.ReactNode> = {
   Crawl4ai:  <span aria-hidden></span>,
 
   // ─────── Front-end ───────
+  Streamlit:  <Icon icon="simple-icons:streamlit"  className="w-4 h-4" />,
   JavaScript: <Icon icon="simple-icons:javascript" className="w-4 h-4" />,
   HTML5:      <Icon icon="simple-icons:html5"      className="w-4 h-4" />,
   CSS3:       <Icon icon="simple-icons:css3"       className="w-4 h-4" />,
-  Streamlit:  <Icon icon="simple-icons:streamlit"  className="w-4 h-4" />,
 
   // ─────── Back-end ───────
   Flask:   <Icon icon="simple-icons:flask"   className="w-4 h-4" />,
