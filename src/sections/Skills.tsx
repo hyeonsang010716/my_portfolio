@@ -9,7 +9,6 @@ const skillIcons: Record<string, React.ReactNode> = {
   Langgraph: <Icon icon="simple-icons:langgraph" className="w-4 h-4" />,
   Langchain: <Icon icon="simple-icons:langchain" className="w-4 h-4" />,
   MCP:       <span aria-hidden></span>,
-  A2A:       <span aria-hidden></span>,
   Crawl4ai:  <span aria-hidden></span>,
 
   // ─────── Front-end ───────

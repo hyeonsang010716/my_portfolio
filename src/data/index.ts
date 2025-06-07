@@ -12,7 +12,7 @@ export const navLinks: NavLink[] = [
 ];
 
 export const skills = {
-  ai: ['Langchain', 'Langgraph', 'MCP', 'A2A', 'Crawl4ai'],
+  ai: ['Langchain', 'Langgraph', 'MCP', 'Crawl4ai'],
   frontend: ['Streamlit', 'JavaScript', 'HTML5', 'CSS3'],
   backend: ['FastAPI', 'Flask'],
   databases: ['PostgreSQL', 'MySQL', 'MongoDB', 'SQLite', 'Redis', 'Neo4j', 'Chroma'],
